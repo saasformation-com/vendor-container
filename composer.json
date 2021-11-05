@@ -1,0 +1,20 @@
+{
+    "name": "saasformation/vendor-container",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SaaSFormation\\Vendor\\Container\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SaaSFormation",
+            "email": "info@saasformation.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "psr/container": "^1.0"
+    }
+}
